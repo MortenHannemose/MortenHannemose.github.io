@@ -2,24 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p style="text-align: center;"><em>Find me in:</em> </p>
+    <p style="text-align: center;">Building 324, room 160 </p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a tenure track Assistant Professor at the [Section for Visual Computing](https://www.compute.dtu.dk/english/research/research-sections/visual-computing) at the [Technical University of Denmark (DTU)](https://www.dtu.dk/english). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests are in computer vision, specifically applying machine learning techniques to 3d scanning, camera calibration, and low level image processing tasks.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I obtained my PhD in 2020 on the topic of [Differentiable Formulations for Inverse Rendering](/assets/pdf/hannemosePhDthesis.pdf) under the supervision of [Jeppe Revall Frisvad](https://people.compute.dtu.dk/jerf/) and [Jakob Wilm](https://portal.findresearcher.sdu.dk/da/persons/jaw). 
+During my PhD I did a research stay at [Cornell Tech](https://www.tech.cornell.edu/people/faculty/) where I visited [Serge Belongie](https://di.ku.dk/english/staff/?pure=en/persons/575485).
+
+
+
