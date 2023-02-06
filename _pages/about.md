@@ -11,7 +11,7 @@ profile:
   address: >
     <p style="text-align: center;"><em>Find me in:</em> </p>
     <p style="text-align: center;">Building 324, room 160 </p>
-	<p style="text-align: center;">DTU, Kgs. Lyngby, Denmark</p>
+    <p style="text-align: center;">DTU, Kgs. Lyngby, Denmark</p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
