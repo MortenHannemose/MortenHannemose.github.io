@@ -161,8 +161,7 @@ category: work
 		//set axis angle from three.js quaternion
 		//var A = new THREE.Vector3().setFromMatrixColumn(new THREE.Matrix4().makeRotationFromQuaternion(Q), 0).toArray();
 		//var angle = 2*Math.acos(Q.w);
-		Aang = getAxisAngleFromQuaternion(Q);
-		console.log(Aang);
+		var Aang = getAxisAngleFromQuaternion(Q);
 		for (var i = 0; i < 3; i++) {
 			var slider = axisanglehtml.rows[i].cells[1].firstChild;
 			var output = axisanglehtml.rows[i].cells[2];
