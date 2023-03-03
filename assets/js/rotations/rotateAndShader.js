@@ -1,6 +1,5 @@
 "use strict";
-
-onload = function init()
+function init()
 {
   var numSubdivs = 15;
   var canvas = document.getElementById("gl-canvas");
