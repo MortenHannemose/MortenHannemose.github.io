@@ -43,12 +43,12 @@ category: work
 	}
 </script>
 
-<script type="text/javascript" src="./js/webgl-utils.js"></script>
-<script type="text/javascript" src="./js/initShaders.js"></script>
-<script type="text/javascript" src="./js/MV.js"></script>
-<script type="text/javascript" src="./js/teapotData.js"></script>
-<script type="text/javascript" src="./js/rotateAndShader.js"></script>
-<script type="text/javascript" src="./js/three-onlymath.min.js"></script>
+<script type="text/javascript" src="./js/rotations/webgl-utils.js"></script>
+<script type="text/javascript" src="./js/rotations/initShaders.js"></script>
+<script type="text/javascript" src="./js/rotations/MV.js"></script>
+<script type="text/javascript" src="./js/rotations/teapotData.js"></script>
+<script type="text/javascript" src="./js/rotations/rotateAndShader.js"></script>
+<script type="text/javascript" src="./js/rotations/three-onlymath.min.js"></script>
 <div style="display:flex">
     <canvas id="gl-canvas" width="800" height="600">
         Sorry, your browser doesn't support the HTML5 canvas element
