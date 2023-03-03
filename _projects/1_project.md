@@ -43,7 +43,7 @@ category: work
 	}
 </script>
 
-<script type="text/javascript" src="./js/rotations/webgl-utils.js"></script>
+<script type="text/javascript" src="/assets/js/rotations/webgl-utils.js"></script>
 <script type="text/javascript" src="./js/rotations/initShaders.js"></script>
 <script type="text/javascript" src="./js/rotations/MV.js"></script>
 <script type="text/javascript" src="./js/rotations/teapotData.js"></script>
