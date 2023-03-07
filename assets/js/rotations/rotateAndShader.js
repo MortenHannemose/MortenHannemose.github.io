@@ -18,7 +18,7 @@ function init()
   gl.nBuffer = null;
   var numVerts = initTeapot(gl, numSubdivs);
 
-  var projectionMatrix = ortho(-3, 3, -2, 2, -200, 200);
+  var projectionMatrix = ortho(-2, 2, -2, 2, -200, 200);
   gl.uniformMatrix4fv( gl.getUniformLocation(gl.program, "projectionMatrix"), false, flatten(projectionMatrix));
 
   gl.uniform4fv(gl.getUniformLocation(gl.program, "k_a"), flatten(vec4(0.2, 0.2, 0.2, 1.0)));
@@ -73,7 +73,7 @@ function initTeapot(gl, numSubdivs)
   var myTeapot = teapot(numSubdivs);
   //myTeapot.rotate(60.0, [1, 0, 0]);
   myTeapot.translate(0, -.5, 0);
-  myTeapot.scale(0.8, 0.8, 0.8);
+  myTeapot.scale(0.6, 0.6, 0.6);
   
 
   gl.deleteBuffer(gl.vBuffer);
