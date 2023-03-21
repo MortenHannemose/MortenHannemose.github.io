@@ -44,26 +44,33 @@ category: work
 </script>
 
 <style>
-    .matrix:before, .matrix:after {
-        content: "";
-        position: absolute;
-        top: 0;
-        border: 1px solid #000;
-        width: 6px;
-        height: 100%;
-    }
-    .matrix:before {
-        left: -6px;
-        border-right: 0px;
-    }
-    .matrix:after {
-        right: -6px;
-        border-left: 0px;
-    }
-    .matrix td {
-        padding: 5px;    
-        text-align: right;
-    }
+input,output{display: inline-block; vertical-align: middle;}
+.matrix {
+  position: relative;
+}
+.matrix td {
+  padding: 2px 6px;
+  text-align: right;
+}
+.matrix:before,
+.matrix:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  border: 1px solid #000;
+  width: 6px;
+  height: 100%;
+}
+
+.matrix:before {
+  left: -6px;
+  border-right: 0px;
+}
+
+.matrix:after {
+  right: -6px;
+  border-left: 0px;
+}
 </style>
 
 <script type="text/javascript" src="/assets/js/rotations/webgl-utils.js"></script>
