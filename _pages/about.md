@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 I am a tenure track Assistant Professor at the [Section for Visual Computing](https://www.compute.dtu.dk/english/research/research-sections/visual-computing) at the [Technical University of Denmark (DTU)](https://www.dtu.dk/english). 
 
 My research interests are in computer vision and machine learning, with a focus on learning from images by generating them. 
-I'm especially interested in how can we push the boundaries of making the output of a camera closer to what we see. I also work with extracting 3D information from images.
+I'm especially interested in how can we push the boundaries of making the output of a camera closer to what we see. I also work with extracting 3D from images.
 
 I obtained my PhD in [Differentiable Formulations for Inverse Rendering](/assets/pdf/hannemosePhDthesis.pdf) in 2020 under the supervision of [Jeppe Revall Frisvad](https://people.compute.dtu.dk/jerf/) and [Jakob Wilm](https://portal.findresearcher.sdu.dk/da/persons/jaw). 
 During my PhD, I did a research stay at [Cornell Tech](https://www.tech.cornell.edu/people/faculty/) where I visited [Serge Belongie](https://di.ku.dk/english/staff/?pure=en/persons/575485).
