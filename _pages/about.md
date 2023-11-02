@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p style="text-align: center;"><em>Find me in:</em> </p>
-    <p style="text-align: center;">Building 324, room 160 </p>
+    <p style="text-align: center;">Building 324, room 230 </p>
     <p style="text-align: center;">DTU, Kgs. Lyngby, Denmark</p>
 
 news: false  # includes a list of news items
