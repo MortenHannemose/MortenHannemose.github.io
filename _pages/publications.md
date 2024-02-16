@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: My list of publications, newest first
+description: A list of my publications, newest first
 sections:
   - bibquery: "@article|@inproceedings"
     text: "Publications"
