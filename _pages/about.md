@@ -32,7 +32,7 @@ I currently have an open PhD position in Fighting Cancer with Generative AI.
 Please apply [here](https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/da/sites/CX_1/job/3162/?utm_medium=jobshare).
 
 
-  ## PhD students 
+## PhD students 
 
 | Year     | Student Name                      | Topic                                    |
 |----------|----------------------------------|----------------------------------------------|
