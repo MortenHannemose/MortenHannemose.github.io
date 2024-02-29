@@ -2,7 +2,7 @@
 layout: page
 title: Rotation explorer
 description: interactively change the rotation of a 3D object
-img: assets/img/rotation.jpg
+img: assets/img/rotations.jpg
 importance: 1
 category: work
 ---
