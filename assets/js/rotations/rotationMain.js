@@ -1,4 +1,4 @@
-var slider_update = function () {
+var quaternion_changed = function () {
 	var denom = 0;
 	for (var i = 0; i < 4; i++) {
 		var slider = quaternion_arr[i][0];
@@ -47,8 +47,8 @@ var set_euler_angles = function(Q) {
 	for (var i = 0; i < 3; i++) {
 		var slider = eulerhtml.rows[i].cells[1].firstChild;
 		var output = eulerhtml.rows[i].cells[2];
-		slider.value = E[i]/(2*Math.PI)*360;
-		output.innerHTML = slider.value;
+		slider.value = E[i];
+		output.innerHTML = parseFloat(slider.value).toFixed(2);
 	}
 }
 var euler_angles_changed = function() {
@@ -56,8 +56,8 @@ var euler_angles_changed = function() {
 	for (var i = 0; i < 3; i++) {
 		var slider = eulerhtml.rows[i].cells[1].firstChild;
 		var output = eulerhtml.rows[i].cells[2];
-		E.push(slider.value/360*2*Math.PI);
-		output.innerHTML = slider.value;
+		E.push(parseFloat(slider.value));
+		output.innerHTML = parseFloat(slider.value).toFixed(2);
 	}
 	var Q = new THREE.Quaternion().setFromEuler(new THREE.Euler().fromArray(E));
 	set_quaternion(Q);
@@ -71,7 +71,7 @@ var set_axis_angle = function(Q) {
 		var slider = axisanglehtml.rows[i].cells[1].firstChild;
 		var output = axisanglehtml.rows[i].cells[2];
 		slider.value = Aang[i];
-		output.innerHTML = slider.value;
+		output.innerHTML = parseFloat(slider.value).toFixed(2);
 	}
 }
 var axis_angle_changed = function() {
@@ -80,7 +80,7 @@ var axis_angle_changed = function() {
 		var slider = axisanglehtml.rows[i].cells[1].firstChild;
 		var output = axisanglehtml.rows[i].cells[2];
 		A.push(slider.value);
-		output.innerHTML = slider.value;
+		output.innerHTML = parseFloat(slider.value).toFixed(2);
 	}
 	var angle = Math.sqrt(A[0]*A[0]+A[1]*A[1]+A[2]*A[2]);
 	for (var i = 0; i < 3; i++) {
@@ -93,11 +93,22 @@ var axis_angle_changed = function() {
 }
 var set_quaternion = function(Q) {
 	var quaternion = Q.toArray();
+	var err = 0;
+	var errFlip = 0;
+	for (var i = 0; i < 4; i++) {
+		var slider = quaternion_arr[i][0];
+		err += Math.abs(quaternion[i]-parseFloat(slider.value));
+		errFlip += Math.abs(quaternion[i]+parseFloat(slider.value));
+		slider.value = quaternion[i];
+	}
 	for (var i = 0; i < 4; i++) {
 		var slider = quaternion_arr[i][0];
 		var output = quaternion_arr[i][1];
+		if (errFlip < err) {
+			quaternion[i] = -quaternion[i];
+		}
 		slider.value = quaternion[i];
-		output.innerHTML = slider.value;
+		output.innerHTML = parseFloat(slider.value).toFixed(3);
 	}
 }
 var quaternion_arr = [];
@@ -105,7 +116,7 @@ var quaternion_table = document.getElementById("quaternion");
 for (var i = 0; i < 4; i++) {
   var slider = quaternion_table.rows[i].cells[1].firstChild;
   var output = quaternion_table.rows[i].cells[2];
-  slider.oninput = slider_update
+  slider.oninput = quaternion_changed
   quaternion_arr.push([slider, output]);
 }
 slider.dispatchEvent(new Event('input'));

@@ -85,19 +85,19 @@ input,output{display: inline-block; vertical-align: middle;}
     </canvas>
     <div>
         <div>    
-            <h3>Euler angles (degrees)</h3>
+            <h3>Euler angles</h3>
             <table id="euler">
-                <tr><td><i>&theta;<sub>x</sub></i></td> <td><input type="range" min="-180" max="180" value="0" step="0.1" class="slider"></td> <td>value</td></tr>
-                <tr><td><i>&theta;<sub>y</sub></i></td> <td><input type="range" min="-180" max="180" value="0" step="0.1" class="slider"></td> <td>value</td></tr>
-                <tr><td><i>&theta;<sub>z</sub></i></td> <td><input type="range" min="-180" max="180" value="0" step="0.1" class="slider"></td> <td>value</td></tr>
+                <tr><td><i>&theta;<sub>x</sub></i></td> <td><input type="range" min="-3.1415" max="3.1415" value="0" step="0.001" class="slider"></td> <td>value</td></tr>
+                <tr><td><i>&theta;<sub>y</sub></i></td> <td><input type="range" min="-3.1415" max="3.1415" value="0" step="0.001" class="slider"></td> <td>value</td></tr>
+                <tr><td><i>&theta;<sub>z</sub></i></td> <td><input type="range" min="-3.1415" max="3.1415" value="0" step="0.001" class="slider"></td> <td>value</td></tr>
             </table>
         </div>
         <div>    
             <h3>Axis angle</h3>
             <table id="axis-angle">
-                <tr><td><i>r<sub>x</sub></i></td> <td><input type="range" min="-3.14" max="3.14" value="0" step="0.005" class="slider"></td> <td>value</td></tr>
-                <tr><td><i>r<sub>y</sub></i></td> <td><input type="range" min="-3.14" max="3.14" value="0" step="0.005" class="slider"></td> <td>value</td></tr>
-                <tr><td><i>r<sub>z</sub></i></td> <td><input type="range" min="-3.14" max="3.14" value="0" step="0.005" class="slider"></td> <td>value</td></tr>
+                <tr><td><i>r<sub>x</sub></i></td> <td><input type="range" min="-3.1415" max="3.1415" value="0" step="0.001" class="slider"></td> <td>value</td></tr>
+                <tr><td><i>r<sub>y</sub></i></td> <td><input type="range" min="-3.1415" max="3.1415" value="0" step="0.001" class="slider"></td> <td>value</td></tr>
+                <tr><td><i>r<sub>z</sub></i></td> <td><input type="range" min="-3.1415" max="3.1415" value="0" step="0.001" class="slider"></td> <td>value</td></tr>
             </table>
         </div>
         <div>    
