@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Rotation explorer
+description: interactively change the rotation of a 3D object
+img: assets/img/rotation.jpg
 importance: 1
 category: work
 ---

@@ -37,7 +37,7 @@ Please apply [here](https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperienc
 | Year     | Student Name                      | Topic                                    |
 |----------|----------------------------------|----------------------------------------------|
 |2023 &ndash; | [Jakob Lønborg Christensen](https://ddsa.dk/jakobloenborgchristensen/) | Diffusion Models for Image Segmentation
-|2023 &ndash; | [Thor Dyrbjerg Vestergaard Christiansen](https://people.compute.dtu.dk/tdvc/) | Neural Form Representation
+|2023 &ndash; | [Thor Vestergaard Christiansen](https://people.compute.dtu.dk/tdvc/) | Neural Form Representation
 | 2022 &ndash;    | [Duc Minh Tran](https://orbit.dtu.dk/en/persons/duc-minh-tran) |    Rendering of objects with measured translucent appearance       |
 | 2021 &ndash; 2024| [Christian Keilstrup Ingwersen](https://christianingwersen.github.io/) |  Towards an AI-Driven Golf Coach, human pose estimation  |
 
