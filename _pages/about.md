@@ -26,11 +26,6 @@ I'm especially interested in how we can push the boundaries of making the output
 I obtained my PhD in [Differentiable Formulations for Inverse Rendering](/assets/pdf/hannemosePhDthesis.pdf) in 2020 under the supervision of [Jeppe Revall Frisvad](https://people.compute.dtu.dk/jerf/) and [Jakob Wilm](https://portal.findresearcher.sdu.dk/da/persons/jaw). 
 During my PhD, I did a research stay at [Cornell Tech](https://www.tech.cornell.edu/people/faculty/) where I visited [Serge Belongie](https://di.ku.dk/english/staff/?pure=en/persons/575485).
 
-## Open positions
-
-I currently have an open PhD position in Fighting Cancer with Generative AI.
-Please apply [here](https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/da/sites/CX_1/job/3162/?utm_medium=jobshare).
-
 
 ## PhD students 
 
