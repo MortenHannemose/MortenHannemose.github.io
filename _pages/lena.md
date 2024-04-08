@@ -10,7 +10,7 @@ nav_order: 5
 Are you writing a publication where you want to use the Lena picture, but don't want to support its [troubled origin](https://www.thedrum.com/news/2019/11/19/gender-equality-ad-calls-time-playboy-model-lena-image-led-jpeg-invention)?
 
 <div>
-    <img class="col-sm-8 center" src="{{ site.baseurl }}/assets/img/Lena_512.webp" alt="" title="Alternative Lena picture"/>
+    <img class="col-sm-8 center" src="{{ site.baseurl }}/assets/img/Lena_512.png" alt="" title="Alternative Lena picture"/>
 </div>
 
 I offer to you my recreation of the Lena/Lenna picture, which you can use to your hearts content. 
