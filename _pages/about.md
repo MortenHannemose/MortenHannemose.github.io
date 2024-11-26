@@ -31,6 +31,7 @@ During my PhD, I did a research stay at [Cornell Tech](https://www.tech.cornell.
 
 | Year     | Student                      | Topic                                    |
 |----------|----------------------------------|----------------------------------------------|
+2025 &ndash; | [Oskar Kristoffersen](https://orbit.dtu.dk/en/persons/oskar-kristoffersen) | Crowd Counting through Remote Sensing and Vision
 |2024 &ndash; | [Peter Johannes Tejlgaard Kampen](https://orbit.dtu.dk/en/persons/peter-johannes-tejlgaard-kampen) | Decision Support AI for Skin Lesions
 |2024 &ndash; | [Changlu Guo](https://orbit.dtu.dk/en/persons/changlu-guo) | Fighting Cancer with Generative AI
 |2023 &ndash; | [Jakob Lønborg Christensen](https://ddsa.dk/jakobloenborgchristensen/) | Diffusion Models for Image Segmentation
