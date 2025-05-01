@@ -29,7 +29,7 @@ orcid_id: 0000-0002-9956-9226 # your ORCID ID
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-rss_icon: true # set to true to show the RSS icon
+rss_icon: false # set to true to show the RSS icon
 scholar_userid: AH58CjUAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
@@ -42,7 +42,7 @@ scholar_userid: AH58CjUAAAAJ # your Google Scholar ID
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
 # work_url: # work page URL
-x_username: MortenHannemose: # your X handle
+x_username: MortenHannemose # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 #custom_social: # can be any name here other than the ones already defined above
