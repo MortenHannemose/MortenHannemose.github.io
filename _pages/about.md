@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a tenure track Assistant Professor at the [Section for Visual Computing](https://www.compute.dtu.dk/english/research/research-sections/visual-computing) at the [Technical University of Denmark (DTU)](https://www.dtu.dk/english).
+I am an Associate Professor at the [Section for Visual Computing](https://www.compute.dtu.dk/english/research/research-sections/visual-computing) at the [Technical University of Denmark (DTU)](https://www.dtu.dk/english).
 
 My research area is in computer vision and machine learning, with a focus on learning from images by generating them.
 I am especially interested in how we can push the boundaries of making the output of a camera closer to what we see and how we can improve 3D estimation from images and videos.
