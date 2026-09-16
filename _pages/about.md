@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an Associate Professor at the [Section for Visual Computing](https://www.compute.dtu.dk/english/research/research-sections/visual-computing) at the [Technical University of Denmark (DTU)](https://www.dtu.dk/english).
+I am an Associate Professor at the [Section for Visual Computing](https://www.compute.dtu.dk/sections/viscom) at the [Technical University of Denmark (DTU)](https://www.dtu.dk/english).
 
 My research area is in computer vision and machine learning, with a focus on learning from images by generating them.
 I am especially interested in how we can push the boundaries of making the output of a camera closer to what we see and how we can improve 3D estimation from images and videos.
@@ -40,10 +40,13 @@ During my PhD, I did a research stay at [Cornell Tech](https://www.tech.cornell.
 
 | Year              | Student                                                                                            | Topic                                                     |
 | ----------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| 2025 &ndash;      | [Oskar Kristoffersen](https://orbit.dtu.dk/en/persons/oskar-kristoffersen)                         | Crowd Counting through Remote Sensing and Vision          |
-| 2024 &ndash;      | [Peter Johannes Tejlgaard Kampen](https://orbit.dtu.dk/en/persons/peter-johannes-tejlgaard-kampen) | Decision Support AI for Skin Lesions                      |
-| 2024 &ndash;      | [Changlu Guo](https://orbit.dtu.dk/en/persons/changlu-guo)                                         | Fighting Cancer with Generative AI                        |
-| 2023 &ndash;      | [Jakob Lønborg Christensen](https://ddsa.dk/jakobloenborgchristensen/)                             | Diffusion Models for Image Segmentation                   |
-| 2023 &ndash;      | [Thor Vestergaard Christiansen](https://people.compute.dtu.dk/tdvc/)                               | Neural Form Representation                                |
-| 2022 &ndash;      | [Duc Minh Tran](https://orbit.dtu.dk/en/persons/duc-minh-tran)                                     | Rendering of objects with measured translucent appearance |
-| 2021 &ndash; 2024 | [Christian Keilstrup Ingwersen](https://christianingwersen.github.io/)                             | Towards an AI-Driven Golf Coach, human pose estimation    |
+| 2025 | [Oskar Kristoffersen](https://orbit.dtu.dk/en/persons/oskar-kristoffersen)                         | Crowd Counting through Remote Sensing and Vision          |
+| 2024 | [Peter Johannes Tejlgaard Kampen](https://orbit.dtu.dk/en/persons/peter-johannes-tejlgaard-kampen) | Decision Support AI for Skin Lesions                      |
+| 2024 | [Changlu Guo](https://orbit.dtu.dk/en/persons/changlu-guo)                                         | Fighting Cancer with Generative AI                        |
+| 2023 | [Jakob Lønborg Christensen](https://ddsa.dk/member/jakob-lonborg-christensen/)                             | Diffusion Models for Image Segmentation                   |
+| 2023 | [Thor Vestergaard Christiansen](https://people.compute.dtu.dk/tdvc/)                               | Neural Form Representation                                |
+
+## Previous PhDs
+| Year | Student                                           | Topic                                                     |
+| 2022 | Duc Minh Tran                                     | Rendering of objects with measured translucent appearance |
+| 2021 | [Christian Keilstrup Ingwersen](https://christianingwersen.github.io/)                             | Towards an AI-Driven Golf Coach, human pose estimation    |
