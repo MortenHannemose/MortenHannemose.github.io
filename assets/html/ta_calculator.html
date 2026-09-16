@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DTU TA Calculator</title>
+
+<style>
+:root{
+  --dtu-red:#990000;
+  --text:#1f2937;
+  --bg:#f5f7fb;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  font-family:Segoe UI,Arial,sans-serif;
+  background:var(--bg);
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:24px;
+}
+
+.card{
+  background:white;
+  max-width:650px;
+  width:100%;
+  border-radius:24px;
+  overflow:hidden;
+  box-shadow:0 20px 50px rgba(0,0,0,.12);
+}
+
+.header{
+  background:var(--dtu-red);
+  color:white;
+  padding:20px 32px;
+}
+
+.header h1{
+  margin:0;
+  font-size:2rem;
+}
+
+.content{
+  padding:30px;
+}
+
+.period-box{
+  border:1px solid #ddd;
+  border-radius:12px;
+  overflow:hidden;
+  margin-bottom:20px;
+}
+
+.period-option{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:14px;
+  background:#fafafa;
+  cursor:pointer;
+}
+
+.period-option + .period-option{
+  border-top:1px solid #ddd;
+}
+
+label.title{
+  font-weight:600;
+  display:block;
+  margin:18px 0 8px;
+  color:var(--text);
+}
+
+input[type=number]{
+  width:100%;
+  padding:16px;
+  font-size:1.4rem;
+  border:2px solid #d1d5db;
+  border-radius:12px;
+}
+
+input[type=number]:focus{
+  outline:none;
+  border-color:var(--dtu-red);
+}
+
+.result{
+  margin-top:24px;
+  text-align:center;
+  background:#f8f8f8;
+  border-radius:18px;
+  padding:24px;
+}
+
+.result .value{
+  font-size:3rem;
+  font-weight:700;
+  color:var(--dtu-red);
+}
+
+.next{
+  margin-top:8px;
+  color:#666;
+  font-size:0.95rem;
+}
+
+.footer{
+  padding:14px 30px;
+  color:#666;
+  font-size:.9rem;
+  border-top:1px solid #eee;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <div class="header">
+    <h1>TA Calculator</h1>
+  </div>
+
+  <div class="content">
+
+    <div class="period-box">
+      <label class="period-option">
+        <input type="radio" name="period" value="ordinary" checked>
+        Ordinary registration period
+      </label>
+
+      <label class="period-option">
+        <input type="radio" name="period" value="supplementary">
+        Supplementary registration period
+      </label>
+    </div>
+
+    <label class="title">Number of students</label>
+
+    <input id="students" type="number" value="100" min="0">
+
+    <div class="result">
+      <div>Number of TAs</div>
+      <div id="result" class="value">0</div>
+      <div id="next" class="next"></div>
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+const studentsInput = document.getElementById('students');
+
+function calc() {
+  const students = Number(studentsInput.value) || 0;
+
+  const period = document.querySelector('input[name="period"]:checked').value;
+
+  const threshold = period === 'ordinary' ? 35 : 45;
+
+  const tas = Math.max(0, Math.ceil((students - threshold) / 30));
+
+  document.getElementById('result').textContent = tas;
+
+  const studentsToNext = threshold + tas * 30 + 1 - students;
+
+  document.getElementById('next').textContent =
+    studentsToNext === 1
+      ? '1 student until next TA'
+      : studentsToNext + ' students until next TA';
+}
+
+studentsInput.addEventListener('focus', () => studentsInput.select());
+studentsInput.addEventListener('click', () => studentsInput.select());
+studentsInput.addEventListener('input', calc);
+
+document.querySelectorAll('input[name="period"]').forEach(radio => {
+  radio.addEventListener('change', calc);
+});
+
+calc();
+</script>
+
+</body>
+</html>
