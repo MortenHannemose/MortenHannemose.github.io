@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-Are you writing a publication where you want to use the Lena picture, but don't want to support its [troubled origin](https://www.thedrum.com/news/gender-equality-ad-calls-time-playboy-model-lena-image-led-jpeg-invention)?
+Are you writing a publication where you want to use the Lena picture, but don't want to support its [troubled origin](https://www.sbs.com.au/news/article/the-campaign-to-erase-the-image-that-accidentally-helped-entrench-sexism-in-tech/0zboc3bbp)?
 
 <div>
     <img class="col-sm-8 center" src="/assets/img/Lena_512.png" alt="" title="Alternative Lena picture"/>

@@ -34,7 +34,7 @@ My research area is in computer vision and machine learning, with a focus on lea
 I am especially interested in how we can push the boundaries of making the output of a camera closer to what we see and how we can improve 3D estimation from images and videos.
 
 I obtained my PhD in [Differentiable Formulations for Inverse Rendering](/assets/pdf/hannemosePhDthesis.pdf) in 2020 under the supervision of [Jeppe Revall Frisvad](https://people.compute.dtu.dk/jerf/) and [Jakob Wilm](https://portal.findresearcher.sdu.dk/da/persons/jaw).
-During my PhD, I did a research stay at [Cornell Tech](https://www.tech.cornell.edu/people/faculty/) where I visited [Serge Belongie](https://di.ku.dk/english/staff/?pure=en/persons/575485).
+During my PhD, I did a research stay at [Cornell Tech](https://www.tech.cornell.edu/people/faculty/) where I visited [Serge Belongie](https://serge.belongie.com/).
 
 ## PhD students
 
