@@ -47,6 +47,8 @@ During my PhD, I did a research stay at [Cornell Tech](https://www.tech.cornell.
 | 2023 | [Thor Vestergaard Christiansen](https://people.compute.dtu.dk/tdvc/)                               | Neural Form Representation                                |
 
 ## Previous PhDs
-| Year | Student                                           | Topic                                                     |
-| 2022 | Duc Minh Tran                                     | Rendering of objects with measured translucent appearance |
+
+| Year | Student                                                                | Topic                                                     |
+| ---- | ---------------------------------------------------------------------- | --------------------------------------------------------- |
+| 2022 | Duc Minh Tran                                                          | Rendering of objects with measured translucent appearance |
 | 2021 | [Christian Keilstrup Ingwersen](https://christianingwersen.github.io/)                             | Towards an AI-Driven Golf Coach, human pose estimation    |
